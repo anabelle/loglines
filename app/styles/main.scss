@@ -16,6 +16,8 @@ header {
 
   a {
     color: #fff;
+    position: relative;
+    z-index: 1001;
   }
 
   a, h1 , h2 {
@@ -87,6 +89,7 @@ span:nth-child(4n+4){
   top: 51px;
   width: 320px;
   height: auto;
+  z-index: 1000;
 }
 
 #loglines {
